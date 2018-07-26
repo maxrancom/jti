@@ -17,6 +17,7 @@ import ALGO from '../../Assets/images/ALGO.png';
 import BRAND from '../../Assets/images/brand_logo.jpg';
 import NEXT from '../../Assets/images/next.png';
 import PREV from '../../Assets/images/prev.png';
+import BG1 from "../../Assets/images/topbg2.jpg";
 
 
 class Homepage extends Component {
@@ -24,6 +25,20 @@ class Homepage extends Component {
     return (
       
       <div id="HomePage">
+        <OwlCarousel 
+        className="owl-theme top-slider"
+                      loop
+                      items={1}
+                      margin={10}
+                      nav={true}
+                      dots={false}
+                      autoplay={true}
+                      navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
+                      smartSpeed ={1000}>
+                 <div className="item bgimg top-bg"></div>
+                 <div className="item bgimg top-bg" ></div>
+                 <div className="item bgimg top-bg"></div>
+        </OwlCarousel>
         <div className="top-bg bgimg d-flex justify-content-center flex-column">
           <div className="container">
             <h1>THE MOST BEST FOREX SIGNALS DASHBOARD  </h1>
