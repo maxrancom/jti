@@ -1,0 +1,38 @@
+@import 'fonts';
+html,body{
+    font-size: 20px;
+    font-family: $def-font;
+}
+ul{
+    display: block;
+    margin-bottom: 0;
+    li{
+        display: block;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.bgimg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.relative{position: relative;}
+.container{
+    padding: 0;
+    &.c12{
+        max-width: 1220px;
+    }
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}

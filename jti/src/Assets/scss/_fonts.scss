@@ -1,0 +1,57 @@
+@font-face{
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+@font-face{
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+@font-face{
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+@font-face{
+    src: url(../fonts/Roboto-Light.ttf);
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+@font-face{
+    src: url(../fonts/Roboto-Thin.ttf);
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+@font-face{
+    src: url(../fonts/Roboto-Condensed.ttf);
+    font-family: 'Roboto-Condensed';
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    src: url(../fonts/Roboto-CondensedItalic.ttf);
+    font-family: 'Roboto-Condensed';
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face{
+    src: url(../fonts/Roboto-BoldCondensedItalic.ttf);
+    font-family: 'Roboto-Condensed';
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face{
+    src: url(../fonts/Avenir-Medium.ttf);
+    font-family: 'Avenir Medium';
+    font-weight: 400;
+}
+@font-face{
+    src: url(../fonts/Avenir-Light.ttf);
+    font-family: 'Avenir Light';
+    font-weight: 300;
+}
+
+
+$def-font: 'Avenir Medium';
+$def-font-cond: 'Avenir Light';
