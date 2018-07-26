@@ -35,13 +35,18 @@ class Homepage extends Component {
                       autoplay={true}
                       navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
                       smartSpeed ={1000}>
-                 <div className="item bgimg top-bg"></div>
+                 <div className="item bgimg top-bg">
+                 <img src={BG1} alt="jti-forex"/>
+                 <div className="container relative"> 
+                    <h1>The Most best Algorithm More than 10 Years Proven  Results  </h1>
+
+                 </div>
+                 </div>
                  <div className="item bgimg top-bg" ></div>
                  <div className="item bgimg top-bg"></div>
         </OwlCarousel>
         <div className="top-bg bgimg d-flex justify-content-center flex-column">
           <div className="container">
-            <h1>THE MOST BEST FOREX SIGNALS DASHBOARD  </h1>
             <h2>Trading with live signals 24/7 with the world-class costumer support exprience</h2>
             <div className="text-center">
               <Link to="/register" id="Register" className="registerBtn mb-3"> OPEN AN ACCOUNT</Link>

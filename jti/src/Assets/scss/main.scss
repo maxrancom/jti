@@ -19,6 +19,23 @@ header{
     transition: all .1s ease;
   }
 }
+.top-slider{
+    .top-bg{
+
+        display: flex;
+        align-item: center;
+        justify-content: center;
+        img{
+            -o-object-fit: cover;
+               object-fit: cover;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 0;
+        }
+    }
+}
 .side-contact{
   position: fixed;
   left: 0;
