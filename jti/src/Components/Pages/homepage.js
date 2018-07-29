@@ -25,6 +25,7 @@ class Homepage extends Component {
     return (
       
       <div id="HomePage">
+      <div className="relative">
         <OwlCarousel 
         className="owl-theme top-slider"
                       loop
@@ -36,23 +37,37 @@ class Homepage extends Component {
                       navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
                       smartSpeed ={1000}>
                  <div className="item bgimg top-bg">
-                 <img src={BG1} alt="jti-forex"/>
-                 <div className="container relative"> 
-                    <h1>The Most best Algorithm More than 10 Years Proven  Results  </h1>
-
+                  <div className="overlay"></div>
+                  <img src={BG1} alt="jti-forex"/>
+                  <div className="container relative"> 
+                      <h1>The Most best Algorithm More than 10 Years Proven  Results  </h1>
+                      <div className="text-center">
+                        <Link to="/register" id="Register" className="registerBtn mb-3"> CHECK IT NOW</Link>
+                      </div>
+                  </div>
                  </div>
+                 <div className="item bgimg top-bg">
+                  <div className="overlay"></div>
+                  <img src={BG1} alt="jti-forex"/>
+                  <div className="container relative"> 
+                      <h2>Find Out Why Most Of The Trader Chose Jti Trading Signals  </h2>
+                      <div className="text-center">
+                        <Link to="/register" id="Register" className="registerBtn mb-3"> JOIN NOW</Link>
+                      </div>
+                  </div>
                  </div>
-                 <div className="item bgimg top-bg" ></div>
-                 <div className="item bgimg top-bg"></div>
+                 <div className="item bgimg top-bg">
+                  <div className="overlay"></div>
+                  <img src={BG1} alt="jti-forex"/>
+                  <div className="container relative"> 
+                      <h2>The Best Of Stock Trading signals  </h2>
+                      <div className="text-center">
+                        <Link to="/register" id="Register" className="registerBtn mb-3"> CHECK IT NOW</Link>
+                      </div>
+                  </div>
+                 </div>
+              
         </OwlCarousel>
-        <div className="top-bg bgimg d-flex justify-content-center flex-column">
-          <div className="container">
-            <h2>Trading with live signals 24/7 with the world-class costumer support exprience</h2>
-            <div className="text-center">
-              <Link to="/register" id="Register" className="registerBtn mb-3"> OPEN AN ACCOUNT</Link>
-            </div>
-            <p className="text-white text-center">New to trading? Practice risk-free with a <Link className="text-purple" to="/">Demo account</Link></p>
-          </div>
           <div className="bot-support py-3">
             <div className="container">
               <div className="row justify-content-between">
@@ -99,7 +114,6 @@ class Homepage extends Component {
                  <div className="col">
                   <img src={pc} id="pc-img" alt="pc"/>
                 </div>
-              
                 
               </div>
               <div className="row justify-content-md-between justify-content-center points my-5">
@@ -148,61 +162,12 @@ class Homepage extends Component {
             <div className="section-why">
               <div className="container c12">
                 <h2 className="text-center">WHY TRUST <bolder>JUSTRADEIT?</bolder></h2>
-                <div className="support-info row">
-                  <div className="col-md-4 d-flex align-items-end one-s ">
-                    <img src={SUPPORT_ICON} alt=""/>
-                    <div className="d-flex flex-column ml-2">
-                      <span className="title">Costumer service 24/7</span>
-                      <span className="content">
-                        Low spreads, backed by small margin
-                        requirements & competitive leverage</span>
-                    </div>
-                  </div>
-                  <div className="col-md-4 d-flex align-items-end one-s ">
-                    <img src={SUPPORT_ICON} alt="support" />
-                    <div className="d-flex flex-column ml-2">
-                      <span className="title">Costumer service 24/7</span>
-                      <span className="content">
-                        Low spreads, backed by small margin
-                        requirements & competitive leverage</span>
-                    </div>
-                  </div>
-                  <div className="col-md-4 d-flex align-items-end one-s ">
-                    <img src={SUPPORT_ICON} alt="support" />
-                    <div className="d-flex flex-column ml-2">
-                      <span className="title">Costumer service 24/7</span>
-                      <span className="content">
-                        Low spreads, backed by small margin
-                        requirements & competitive leverage</span>
-                    </div>
-                  </div>
-                  <div className="col-md-4 d-flex align-items-end one-s ">
-                    <img src={SUPPORT_ICON} alt="support" />
-                    <div className="d-flex flex-column ml-2">
-                      <span className="title">Costumer service 24/7</span>
-                      <span className="content">
-                        Low spreads, backed by small margin
-                        requirements & competitive leverage</span>
-                    </div>
-                  </div>
-                  <div className="col-md-4 d-flex align-items-end one-s ">
-                    <img src={SUPPORT_ICON} alt="support" />
-                    <div className="d-flex flex-column ml-2">
-                      <span className="title">Costumer service 24/7</span>
-                      <span className="content">
-                        Low spreads, backed by small margin
-                        requirements & competitive leverage</span>
-                    </div>
-                  </div>
-                  <div className="col-md-4 d-flex align-items-end one-s ">
-                    <img src={SUPPORT_ICON} alt="support" />
-                    <div className="d-flex flex-column ml-2">
-                      <span className="title">Costumer service 24/7</span>
-                      <span className="content">
-                        Low spreads, backed by small margin
-                        requirements & competitive leverage</span>
-                    </div>
-                  </div>
+                <div className="entry">
+                 <p>We are a group of professional traders with many years of experience in all areas of the capital market and have traded with financial institutions and large investment banks worldwide.</p>
+                <p>we provide professional trading signals using unique trading techniques we have developed over the years. The techniques have been examined and tested in real-time for several years by professional traders. We are proud to say we enjoy very high success rates and usually predict future market developments!</p>
+                <p>Our system uses a computer program based on pure mathematics combined with rich human experience, to help choose the most successful transactions. Our team of analysts follows the various financial markets in real time and provides reliable trading signals the entire time the markets are open. The chief analyst receives the total number of trading alerts at the end of the process, and they are sent to you after filtering.
+                We provide Forex trading signals, stocks, indices, and commodities, in various world markets.</p>
+
                 </div>
               </div>
             </div>
@@ -211,7 +176,7 @@ class Homepage extends Component {
                 <h2 className="text-center mb-4">ALL YOU NEED <bolder className="font-italic">JUSTHERE</bolder></h2>
                 <img src={GRAPH} alt="forex-graph" className="mb-5 forex-graph"/>
                 <div className="entry light text-center">
-                  <p>With our <bolder>revolutional dashboard</bolder> you can excpect</p>
+                  <p>With our <bolder>revolutionary algorithm</bolder> you can excpect</p>
                   <p>   the most of the performance you ever thinking of.</p>
                   <p>   the most advanced forex signals system</p>
                   <p>    is here and waiting for you <bolder>to take advantage! </bolder> </p>
