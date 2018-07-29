@@ -1,6 +1,6 @@
 @import 'fonts';
 html,body{
-    font-size: 20px;
+    font-size: 14px;
     font-family: $def-font;
 }
 ul{
@@ -22,7 +22,8 @@ a{
 }
 .bgimg{
     background-position: center;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     background-repeat: no-repeat;
 }
 .relative{position: relative;}

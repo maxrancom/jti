@@ -5,7 +5,7 @@ import{
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
+import {Form,Text,TextArea} from 'react-form';
 import pc from '../../Assets/images/pc.png';
 import STATS from '../../Assets/images/stats.png';
 import MANIMG from '../../Assets/images/man.png';
@@ -116,28 +116,6 @@ class Homepage extends Component {
             </div>
 
           </div>
-          <div className="row justify-content-md-between justify-content-center points my-5">
-            <div className=" one-point">
-              <img className="stats-img"  src={STATS} alt="stats icon"/>
-              <span className="number">99%</span>
-              <span className="name">preformance</span>
-            </div>
-            <div className=" one-point">
-              <img className="stats-img"  src={STATS} alt="stats icon"/>
-              <span className="number">99%</span>
-              <span className="name">preformance</span>
-            </div>
-            <div className=" one-point">
-              <img className="stats-img" src={STATS} alt="stats icon"/>
-              <span className="number">99%</span>
-              <span className="name">preformance</span>
-            </div>
-            <div className=" one-point">
-              <img className="stats-img"  src={STATS} alt="stats icon"/>
-              <span className="number">99%</span>
-              <span className="name">preformance</span>
-            </div>
-          </div>
         </div>
         <div className="section-testimonial " >
           <div className="container">
@@ -147,14 +125,44 @@ class Homepage extends Component {
               </div>
               <div className="col-md-6 py-md-5 relative d-flex justify-content-center align-align-items-center">
                 <img className="quote top" src={QUOTE} alt="quote"/>
-                <div className="entry font-italic py-5" >
-                  <p>the best choice i ever</p>
-                  <p>made in my life is to</p>
-                  <p>join just trade it,</p>
-                  <p><bolder>never disspointed!</bolder></p>
-                  <span className="d-block font-font-weight-bolder name">chris robben</span>
-                </div>
+                <OwlCarousel
+                  className="recs-slider"
+                  items = {1}
+                  loop
+                  margin={10}
+                  nav={false}
+                  dots={false}
+                  navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
+                  smartSpeed ={500}
+                  autoplay= {2000}
+                  >
+                  <div className="item relative">
+                    <div className="entry font-italic py-5" >
+                      <p>I had to learn the hard way that something was missing in my trading style... I worked with many signal providers both in Israel and overseas, but none gave me what I was looking for. Everything was too immediate. But I continued  looking until I found Pro Signals, the only company that provided me with comprehensive information on signal s and let me decide for myself whether or not it’s worth it for me to  enter the signal. Thank you signals that include income ratio, loss ratio, and the risk level. Thank you Pro Signals.
+                      </p>
+                      <span className="d-block font-font-weight-bolder name">Josef S.</span>
+                    </div>
+                  </div>
+                  <div className="item relative">
+                    <div className="entry font-italic py-5" >
+                      <p>As I see it, you have two choices: you can either continue doing what you have been doing up until now, and if you were successful, go ahead, or simply connect to Pro Signals. There were a couple of really great guys, named Baruch and Shlomi, who helped me a lot with everything I wanted. I received good signals and they provided me with free courses that usually cost tens of thousands of shekels. They are just awesome. I do not have one bad word to say about them.
+                      </p>
+                      <span className="d-block font-font-weight-bolder name">Richard   V.</span>
+                    </div>
+                  </div>
+                  <div className="item relative">
+                    <div className="entry font-italic py-5" >
+                      <p>After much searching I found a company that provided a 24/7 service on market signals, information and courses that increased my knowledge, which, to tell you the truth, was not up to par. Pro Signals helped me become successful with regulated supervision and an advanced trading platform. I got everything I needed from them. The signals are amazing. But don’t take my word for it—Go ahead and  try for yourself.
+                      </p>
+                      <span className="d-block font-font-weight-bolder name">Eduard  B.</span>
+                    </div>
+                  </div>
+
+
+
+                </OwlCarousel>
                 <img className="quote bot" src={QUOTE} alt="q"/>
+
               </div>
             </div>
           </div>
@@ -399,34 +407,36 @@ class Homepage extends Component {
             <h2 className="text-center title">OUR <bolder>PARTNERS</bolder></h2>
 
             <div className="relative owl-container">
-
-              <OwlCarousel
-                className="owl-theme logos"
-                loop
-                items={2}
-                margin={10}
-                nav={true}
-                dots={false}
-                navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
-                smartSpeed ={500}
-                responsive = {
-                  {
-                    768:{
-                      items: 4
-                    },
-                    1200: {
-                      items: 6
-                    }
-                  }
-                }
-                >
-                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
-                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
-                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
-                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
-                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
-
-              </OwlCarousel>
+              <div className="form">
+              <Form render={({
+            submitForm
+          }) => (
+            <form id="contactform" onSubmit={submitForm}>
+            <div className="row justify-content-between">
+              <div className="col3">
+                <label htmlFor="fullname">Full Name:<span class="requierd">*</span></label>
+                <Text field="fullname" name="fullname"  placeholder='' />
+              </div>
+              <div className="col3">
+                <label htmlFor="email">Email: <span class="requierd">*</span></label>
+                <Text field="email" name="email" placeholder='' />
+              </div>
+              <div className="col3">
+                <label htmlFor="phone">Phone:<span class="requierd">*</span></label>
+                <Text field="phone" name="phone" placeholder='' />
+              </div>
+              <div className="col3">
+                <label htmlFor="subject">Subject:<span class="requierd">*</span></label>
+                <Text field="subject" name="subject" placeholder='' />
+              </div>
+              <div className="col-12 px-0">
+                <TextArea field="textarea" name="textarea" placeholder='Type your message here *' />
+              </div>
+              <input type="submit" value="SEND"/>
+            </div>
+            </form>
+          )} />
+              </div>
             </div>
           </div>
         </div>
