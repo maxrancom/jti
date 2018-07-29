@@ -110,6 +110,7 @@ class Homepage extends Component {
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
 
             <div className="col">
               <img src={pc} id="pc-img" alt="pc"/>
@@ -209,11 +210,116 @@ class Homepage extends Component {
                 <div className="relative">
                   <img src={ALGO} alt="algo icon"/>
                   <h3 className="text-white"><bolder>ALGO</bolder> TRADING</h3>
+=======
+
+            <div className="col">
+              <img src={pc} id="pc-img" alt="pc"/>
+            </div>
+
+          </div>
+          <div className="row justify-content-md-between justify-content-center points my-5">
+            <div className=" one-point">
+              <img className="stats-img"  src={STATS} alt="stats icon"/>
+              <span className="number">99%</span>
+              <span className="name">preformance</span>
+            </div>
+            <div className=" one-point">
+              <img className="stats-img"  src={STATS} alt="stats icon"/>
+              <span className="number">99%</span>
+              <span className="name">preformance</span>
+            </div>
+            <div className=" one-point">
+              <img className="stats-img" src={STATS} alt="stats icon"/>
+              <span className="number">99%</span>
+              <span className="name">preformance</span>
+            </div>
+            <div className=" one-point">
+              <img className="stats-img"  src={STATS} alt="stats icon"/>
+              <span className="number">99%</span>
+              <span className="name">preformance</span>
+            </div>
+          </div>
+        </div>
+        <div className="section-testimonial " >
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 relative">
+                <img id="Man" src={MANIMG} alt="man img"/>
+              </div>
+              <div className="col-md-6 py-md-5 relative d-flex justify-content-center align-align-items-center">
+                <img className="quote top" src={QUOTE} alt="quote"/>
+                <div className="entry font-italic py-5" >
+                  <p>the best choice i ever</p>
+                  <p>made in my life is to</p>
+                  <p>join just trade it,</p>
+                  <p><bolder>never disspointed!</bolder></p>
+                  <span className="d-block font-font-weight-bolder name">chris robben</span>
+                </div>
+                <img className="quote bot" src={QUOTE} alt="q"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section-why">
+          <div className="container c12">
+            <h2 className="text-center">WHY TRUST <bolder>JUSTRADEIT?</bolder></h2>
+            <div className="entry">
+              <p>We are a group of professional traders with many years of experience in all areas of the capital market and have traded with financial institutions and large investment banks worldwide.</p>
+              <p>we provide professional trading signals using unique trading techniques we have developed over the years. The techniques have been examined and tested in real-time for several years by professional traders. We are proud to say we enjoy very high success rates and usually predict future market developments!</p>
+              <p>Our system uses a computer program based on pure mathematics combined with rich human experience, to help choose the most successful transactions. Our team of analysts follows the various financial markets in real time and provides reliable trading signals the entire time the markets are open. The chief analyst receives the total number of trading alerts at the end of the process, and they are sent to you after filtering.
+                We provide Forex trading signals, stocks, indices, and commodities, in various world markets.</p>
+
+            </div>
+          </div>
+        </div>
+        <div className="section-4">
+          <div className="container c12">
+            <h2 className="text-center mb-4">ALL YOU NEED <bolder className="font-italic">JUSTHERE</bolder></h2>
+            <img src={GRAPH} alt="forex-graph" className="mb-5 forex-graph"/>
+            <div className="entry light text-center">
+              <p>With our <bolder>revolutionary algorithm</bolder> you can excpect</p>
+              <p>   the most of the performance you ever thinking of.</p>
+              <p>   the most advanced forex signals system</p>
+              <p>    is here and waiting for you <bolder>to take advantage! </bolder> </p>
+            </div>
+            <div className="text-center my-4">
+              <Link to="/" className="registerBtn">START NOW</Link>
+            </div>
+          </div>
+        </div>
+        <div className="section-5">
+          <div className="container c12">
+            <h2 className="text-center">NEW WAYS TO TRADE</h2>
+            <div className="row justify-content-between flex-md-row flex-column">
+              <div className="box box-btc relative">
+                <div className="relative">
+                  <img src={BTC} alt="bitcoin icon"/>
+                  <h3 className="text-white"><bolder>BTC</bolder> TRADING</h3>
+                </div>
+                <div className="lines">
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                 </div>
 
                 <a className="graph" href="https://www.myfxbook.com/members/edalgo/yellow-gold/2547727"><img   border="0" src="https://widgets.myfxbook.com/widgets/2547727/large.jpg"/></a>
 
               </div>
+<<<<<<< HEAD
             </div>
           </div>
         </div>
@@ -267,10 +373,55 @@ class Homepage extends Component {
                 <div className="qa-content collapse" id="q4">
                   <div>
                     <p>No. you don’t need experience, just open an account with one of the broker and follow our signals.</p>
+=======
+              <div className="box box-algo relative">
+                <div className="relative">
+                  <img src={ALGO} alt="algo icon"/>
+                  <h3 className="text-white"><bolder>ALGO</bolder> TRADING</h3>
+                </div>
+                <div className="lines">
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                  <div className="row">
+                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
+                    <span className="light">NEW STRATEGY</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section-faq">
+          <div className="container">
+            <h2 className="text-center">FAQ <bolder>JUSTASK!</bolder></h2>
+            <div className="qa-container row justify-content-between">
+              <div className="one-qa">
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q1" aria-expanded="false" aria-controls="q1" >
+                  <div className="plus"></div>
+                  <div>Why should I choose: Just Trade It</div>
+                </div>
+                <div className="qa-content collapse" id="q1">
+                  <div>
+                    <p>There are a lot of companies that provide all kind of services in the online market in general and trading signals particular all over the world. However, when you choose the services that JTI offers, you will immediately see the difference.</p>
+                    <p>The difference between us and other companies is that we provide signal service in a very high level, both in the quality and visibility of the signal and also thanks to our new dashboard signals that sync online you will be the first to know about any change in the signals, you will immediately notify or by mail or by SMS.</p>
+                    <p>We have advantage over other companies by always knowing what you are entering and whether this is the level of risk Which we are interested in taking, we execute risk management at every signal and take care to accompany the transaction all the way from opening to closing. JTI operates with complete transparency</p>
+                    <p>All signals are automatically recorded in the system and subscribers can view and enter it any Stage.</p>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q5" aria-expanded="false" aria-controls="q5" >
                   <div className="plus"></div>
                   <div>In which company should I open a trading account?</div>
@@ -279,10 +430,20 @@ class Homepage extends Component {
                   <div>
                     <p>We prefer to trade in banks that way we work</p>
                     <p>&nbsp; In cooperation with Swissquote bank one of the largest trading banks in Switzerland with protection of up to 100 thousand Swiss francs per account, and exceptional trading conditions if you open account from our link you will be entitled to a 70% discount on all our services.</p>
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q2" aria-expanded="false" aria-controls="q2" >
+                  <div className="plus"></div>
+                  <div>Are your trading signals free?? </div>
+                </div>
+                <div className="qa-content collapse" id="q2">
+                  <div>
+                    <p>you can try our FREE signals for EUR/USD you will receive it by email, if you would like to receive signals from all pairs via SMS and Email, a subscription is required</p>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q6" aria-expanded="false" aria-controls="q6" >
                   <div className="plus"></div>
                   <div>How long will my account will be activated after a subscription?</div>
@@ -290,10 +451,22 @@ class Homepage extends Component {
                 <div className="qa-content collapse" id="q6">
                   <div>
                     Usually it's not taking more than 1 hour.
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q3" aria-expanded="false" aria-controls="q3" >
+                  <div className="plus"></div>
+                  <div>How the Service on Stocks Works?</div>
+                </div>
+                <div className="qa-content collapse" id="q3">
+                  <div>
+                    <p>The service includes shares that reach important prices. Every day before the start of trading day I send a list of shares that includes the price of entry, the price of stop loss, the price of taking profit</p>
+                    <p>In addition, all trades are calculated at a max loss of $ 100. This calculation is derived from the number of shares</p>
+                    <p>About the method: The method has been tested over the years, the results I enclose in separate tables the ratio of profit to initial loss is: 1: 1.5 All stocks are with a turnover of 1 million shares and more the price ranges from $ 10 to $ 50</p>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q7" aria-expanded="false" aria-controls="q7" >
                   <div className="plus"></div>
                   <div>Can I get investor password of your account to see your Algo trading in action?</div>
@@ -302,10 +475,20 @@ class Homepage extends Component {
                   <div>
                     <p>Yes. &nbsp;we are among the few companies that provide full transparency in our algorithms, you can access to our account all times and check our systems in order to see our live result and our history result. and make a decision whether it suits you or not, feel free to send us mail to: <a href="mailto:info@Justradeit.com">info@Justradeit.com</a> and request investor password to our live account.</p>
                     <p>Important: We not holding client accounts with us, we do not have access to your account, after porches algo trading service we send you an email with expert to install in your private computer and that is it.</p>
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q4" aria-expanded="false" aria-controls="q4" >
+                  <div className="plus"></div>
+                  <div>Should I have knowledge in the capital market before the signals or algo subscription?</div>
+                </div>
+                <div className="qa-content collapse" id="q4">
+                  <div>
+                    <p>No. you don’t need experience, just open an account with one of the broker and follow our signals.</p>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q8" aria-expanded="false" aria-controls="q8" >
                   <div className="plus"></div>
                   <div>Do you offer a money management service?</div>
@@ -313,10 +496,21 @@ class Homepage extends Component {
                 <div className="qa-content collapse" id="q8">
                   <div>
                     <p>Yes. Please contact us to <a href="mailto:info@justradeit.com">info@justradeit.com</a> in order to get more details.</p>
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q5" aria-expanded="false" aria-controls="q5" >
+                  <div className="plus"></div>
+                  <div>In which company should I open a trading account?</div>
+                </div>
+                <div className="qa-content collapse" id="q5">
+                  <div>
+                    <p>We prefer to trade in banks that way we work</p>
+                    <p>&nbsp; In cooperation with Swissquote bank one of the largest trading banks in Switzerland with protection of up to 100 thousand Swiss francs per account, and exceptional trading conditions if you open account from our link you will be entitled to a 70% discount on all our services.</p>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q9" aria-expanded="false" aria-controls="q9" >
                   <div className="plus"></div>
                   <div>How many signals do you send each day?</div>
@@ -324,10 +518,20 @@ class Homepage extends Component {
                 <div className="qa-content collapse" id="q9">
                   <div>
                     <p>It's all about the market. We carefully examine the market situation of important messages and important indicator etc. our system scans the market each minute, our system scans and measures the market constantly to detect improper movement in the market. The detection is done in a smart manner which is suitable for different market conditions, and therefore the system is profitable in every market case since 2000. &nbsp;</p>
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q6" aria-expanded="false" aria-controls="q6" >
+                  <div className="plus"></div>
+                  <div>How long will my account will be activated after a subscription?</div>
+                </div>
+                <div className="qa-content collapse" id="q6">
+                  <div>
+                    Usually it's not taking more than 1 hour.
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q10" aria-expanded="false" aria-controls="q10" >
                   <div className="plus"></div>
                   <div>What is a Robot Silver?</div>
@@ -337,10 +541,21 @@ class Homepage extends Component {
                     <p>The uniqueness of "Silver Robot" is that it does not work on indicators which react with big delay.</p>
                     <p>&nbsp;</p>
                     <p>The robot scans and measures the market constantly to detect improper movement in the market. The detection is done in a smart manner which is suitable for different market conditions, and therefore the robot is profitable in every market case since 2000. When the robot detects improper movement, it starts to enter the trend direction in small quantities, in case the trend continues the robot adds quantities. &nbsp;The position management is done in a clever manner, it includes a combination of several different algorithms for managing the position and determining the stop and the profit.&nbsp;On one hand it minimizes the losses by implementing clever tactics to manage the position, and on the other hand it maximizes the profit. In case the market returns sharply in the other direction the robot will try to catch the change.&nbsp;The robot operates on several currencies-pairs, and in each currency-pair, it operates simultaneously over several time frames, so we have about 30 robots operating simultaneously and together achieve a stable yield.</p>
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q7" aria-expanded="false" aria-controls="q7" >
+                  <div className="plus"></div>
+                  <div>Can I get investor password of your account to see your Algo trading in action?</div>
+                </div>
+                <div className="qa-content collapse" id="q7">
+                  <div>
+                    <p>Yes. &nbsp;we are among the few companies that provide full transparency in our algorithms, you can access to our account all times and check our systems in order to see our live result and our history result. and make a decision whether it suits you or not, feel free to send us mail to: <a href="mailto:info@Justradeit.com">info@Justradeit.com</a> and request investor password to our live account.</p>
+<p>Important: We not holding client accounts with us, we do not have access to your account, after porches algo trading service we send you an email with expert to install in your private computer and that is it.</p>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
                   </div>
                 </div>
               </div>
               <div className="one-qa">
+<<<<<<< HEAD
                 <div className=" d-flex qa" data-toggle="collapse" data-target="#q11" aria-expanded="false" aria-controls="q11" >
                   <div className="plus"></div>
                   <div>What is a golden robot?</div>
@@ -367,6 +582,18 @@ class Homepage extends Component {
                   </div>
                 </div>
               </div>
+=======
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q8" aria-expanded="false" aria-controls="q8" >
+                  <div className="plus"></div>
+                  <div>Do you offer a money management service?</div>
+                </div>
+                <div className="qa-content collapse" id="q8">
+                  <div>
+                    <p>Yes. Please contact us to <a href="mailto:info@justradeit.com">info@justradeit.com</a> in order to get more details.</p>
+                  </div>
+                </div>
+              </div>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
             </div>
           </div>
         </div>
@@ -375,6 +602,7 @@ class Homepage extends Component {
             <h2 className="text-center title">OUR <bolder>PARTNERS</bolder></h2>
 
             <div className="relative owl-container">
+<<<<<<< HEAD
               <div className="form">
               <Form render={({
             submitForm
@@ -405,6 +633,37 @@ class Homepage extends Component {
             </form>
           )} />
               </div>
+=======
+
+              <OwlCarousel
+                className="owl-theme logos"
+                loop
+                items={2}
+                margin={10}
+                nav={true}
+                dots={false}
+                navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
+                smartSpeed ={500}
+                responsive = {
+
+                  {
+                    768:{
+                      items: 4
+                    },
+                    1200: {
+                      items: 6
+                    }
+                  }
+                }
+                >
+                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
+                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
+                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
+                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
+                <div className="item"><img src={BRAND} alt="brandlogo"/></div>
+
+              </OwlCarousel>
+>>>>>>> eb32c5ec9517f41ae46d5253d9c3143479692ba9
             </div>
           </div>
         </div>
