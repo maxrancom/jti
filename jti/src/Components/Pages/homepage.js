@@ -325,7 +325,7 @@ class Homepage extends Component {
                 <div className="qa-content collapse" id="q7">
                   <div>
                     <p>Yes. &nbsp;we are among the few companies that provide full transparency in our algorithms, you can access to our account all times and check our systems in order to see our live result and our history result. and make a decision whether it suits you or not, feel free to send us mail to: <a href="mailto:info@Justradeit.com">info@Justradeit.com</a> and request investor password to our live account.</p>
-<p>Important: We not holding client accounts with us, we do not have access to your account, after porches algo trading service we send you an email with expert to install in your private computer and that is it.</p>
+                    <p>Important: We not holding client accounts with us, we do not have access to your account, after porches algo trading service we send you an email with expert to install in your private computer and that is it.</p>
                   </div>
                 </div>
               </div>
@@ -337,6 +337,57 @@ class Homepage extends Component {
                 <div className="qa-content collapse" id="q8">
                   <div>
                     <p>Yes. Please contact us to <a href="mailto:info@justradeit.com">info@justradeit.com</a> in order to get more details.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="one-qa">
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q9" aria-expanded="false" aria-controls="q9" >
+                  <div className="plus"></div>
+                  <div>How many signals do you send each day?</div>
+                </div>
+                <div className="qa-content collapse" id="q9">
+                  <div>
+                    <p>It's all about the market. We carefully examine the market situation of important messages and important indicator etc. our system scans the market each minute, our system scans and measures the market constantly to detect improper movement in the market. The detection is done in a smart manner which is suitable for different market conditions, and therefore the system is profitable in every market case since 2000. &nbsp;</p>
+                  </div>
+                </div>
+              </div>
+              <div className="one-qa">
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q10" aria-expanded="false" aria-controls="q10" >
+                  <div className="plus"></div>
+                  <div>What is a Robot Silver?</div>
+                </div>
+                <div className="qa-content collapse" id="q10">
+                  <div>
+                    <p>The uniqueness of "Silver Robot" is that it does not work on indicators which react with big delay.</p>
+                    <p>&nbsp;</p>
+                    <p>The robot scans and measures the market constantly to detect improper movement in the market. The detection is done in a smart manner which is suitable for different market conditions, and therefore the robot is profitable in every market case since 2000. When the robot detects improper movement, it starts to enter the trend direction in small quantities, in case the trend continues the robot adds quantities. &nbsp;The position management is done in a clever manner, it includes a combination of several different algorithms for managing the position and determining the stop and the profit.&nbsp;On one hand it minimizes the losses by implementing clever tactics to manage the position, and on the other hand it maximizes the profit. In case the market returns sharply in the other direction the robot will try to catch the change.&nbsp;The robot operates on several currencies-pairs, and in each currency-pair, it operates simultaneously over several time frames, so we have about 30 robots operating simultaneously and together achieve a stable yield.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="one-qa">
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q11" aria-expanded="false" aria-controls="q11" >
+                  <div className="plus"></div>
+                  <div>What is a golden robot?</div>
+                </div>
+                <div className="qa-content collapse" id="q11">
+                  <div>
+                    <p>The algorithm scans the market to identify ideal times for trading and to filter out problematic trading times, it&rsquo;s done in the following way: &nbsp;The robot gathers information from several of different sources and indicators: Moving Averages, ATR, StdDev. All the collected information is converted into a unique formula [based on the statistics of many years] and according to this, the robot determines the current state of the market (Market strength, trends, shuffle, etc.) When determined by the algorithm that the market is currently ideal for trading, the robot will open positions based on several models that based on understanding of the market movements, strong patterns and critical price levels.&nbsp;</p>
+                    <p>The position management is done in a special way with a stop-loss and a take-profit according to the market. In addition, the stop-loss is trailed forward with the market movement. The position is divided into 3 different profit targets per third of the position, to maintain diversification and stability.</p>
+                    <p>&nbsp;</p>
+                    <p>The robot operates on 12 currencies-pairs, and in each currency-pair, it operates on several time frames, so that we have additional dispersion on the investment portfolio.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="one-qa">
+                <div className=" d-flex qa" data-toggle="collapse" data-target="#q12" aria-expanded="false" aria-controls="q12" >
+                  <div className="plus"></div>
+                  <div>What types of payment do you accept?</div>
+                </div>
+                <div className="qa-content collapse" id="q12">
+                  <div>
+                    <p>We accept all types of payments, you can make bank transfers, you can pay in the PayPal account, and you can pay in all types of credit cards.</p>
+                    <p>For more details please contact us at: <a href="mailto:info@Justradeit.com">info@Justradeit.com</a></p>
+                    <p>&nbsp;</p>
                   </div>
                 </div>
               </div>
@@ -359,7 +410,6 @@ class Homepage extends Component {
                 navText= {['<img src='+ NEXT +' class="nav-btn next" alt="next-button"/>', '<img src='+PREV + ' class="nav-btn prev" alt="next-button"/>']}
                 smartSpeed ={500}
                 responsive = {
-
                   {
                     768:{
                       items: 4
