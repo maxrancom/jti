@@ -472,8 +472,8 @@ bolder{font-weight: 700;}
         width: calc(50% - 2rem);
         padding: 5rem 1rem;
         h3{
-            font-size: 5rem;
-            margin-bottom: 2rem;
+            font-size: 3rem;
+            margin-bottom: 6rem;
         }
         img{
             position: absolute;
@@ -483,31 +483,16 @@ bolder{font-weight: 700;}
                 -ms-transform: translate(5%,-30%);
                     transform: translate(5%,-30%);
         }
-        .lines{
-            .row{
-                color: #fff;
-                font-size: 2rem;
-                margin-bottom: 1rem;
-                .plus{
-                    width: 80px;
-                    &:before{
-                        position: absolute;
-
-                        content: '';
-                        width: 35px;
-                        height: 12px;
-                        background-color: #fff;
-                    }
-                    &:after{
-                        position: absolute;
-
-                        content: '';
-                        width: 12px;
-                        height: 35px;
-                        background-color: #fff;
-                    }
-                }
-            }
+        a.graph{
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+          img{
+            position: relative;
+            -webkit-transform: initial;
+                -ms-transform: initial;
+                    transform: initial;
+          }
         }
        &.box-btc{
            border-color: $color-yellow;

@@ -203,48 +203,16 @@ class Homepage extends Component {
                   <img src={BTC} alt="bitcoin icon"/>
                   <h3 className="text-white"><bolder>BTC</bolder> TRADING</h3>
                 </div>
-                <div className="lines">
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                </div>
+                <a className="graph" href="https://www.myfxbook.com/members/edalgo/silver-white/2545832"><img   border="0" src="https://widgets.myfxbook.com/widgets/2545832/large.jpg"/></a>
               </div>
               <div className="box box-algo relative">
                 <div className="relative">
                   <img src={ALGO} alt="algo icon"/>
                   <h3 className="text-white"><bolder>ALGO</bolder> TRADING</h3>
                 </div>
-                <div className="lines">
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                  <div className="row">
-                    <span className="plus relative d-flex justify-content-center align-items-center"></span>
-                    <span className="light">NEW STRATEGY</span>
-                  </div>
-                </div>
+
+                <a className="graph" href="https://www.myfxbook.com/members/edalgo/yellow-gold/2547727"><img   border="0" src="https://widgets.myfxbook.com/widgets/2547727/large.jpg"/></a>
+
               </div>
             </div>
           </div>
